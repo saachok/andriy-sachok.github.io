@@ -29,9 +29,11 @@ const Gallery = (props) => {
 
   return (
     <div className={classes.gallery}>
-      <button onClick={showPrevImg}>Prev img</button>
       <GalleryItem path={gallery[index].path} />
-      <button onClick={showNextImg}>Next img</button>
+      <div className={classes['button-handler']}>
+        <button onClick={showPrevImg}>Prev img</button>
+        <button onClick={showNextImg}>Next img</button>
+      </div>
     </div>
   );
 };

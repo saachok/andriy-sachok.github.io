@@ -1,9 +1,36 @@
 .gallery {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  height: 50%;
-  width: 50%;
+  height: 450px;
+  width: 400px;
   background-color: greenyellow;
   border-radius: 2rem;
 }
+
+.button-handler {
+  /* padding: 4rem; */
+  display: flex;
+  /* background-color: black; */
+}
+
+.gallery button {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(95, 207, 95);
+}
+
+.gallery button:hover {
+  background-color: rgb(80, 170, 80);
+}
+
+/* .gallery button {
+  width: 5rem;
+  height: 3rem;
+  font-size: large;
+  border-radius: 0.5rem;
+} */
