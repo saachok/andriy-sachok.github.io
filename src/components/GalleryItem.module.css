@@ -2,5 +2,6 @@
   height: 16rem;
   width: 20rem;
   background-color: forestgreen;
+  border: 2px solid black;
   border-radius: 2rem;
 }
