@@ -1,7 +1,16 @@
 .image {
-  height: 16rem;
-  width: 20rem;
+  height: 25rem;
+  width: 25rem;
+  object-fit: fill;
   background-color: forestgreen;
   border: 2px solid black;
   border-radius: 2rem;
+}
+
+@media screen and (max-width: 450px) {
+  .image {
+    margin: 1rem 2rem 1rem 2rem;
+    height: 17rem;
+    width: 17rem;
+  }
 }
