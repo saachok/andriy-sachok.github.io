@@ -1,4 +1,5 @@
 import Gallery from './components/Gallery';
+import Card from './components/UI/Card';
 
 import classes from './App.module.css';
 
@@ -32,7 +33,9 @@ const DUMMY_GALLERY = [
 function App() {
   return (
     <div className={classes.app}>
-      <Gallery gallery={DUMMY_GALLERY} />
+      <Card>
+        <Gallery gallery={DUMMY_GALLERY} />
+      </Card>
     </div>
   );
 }
